@@ -1,0 +1,27 @@
+body {
+    background-color: #334139;
+    text-align: center
+}
+
+button {
+    background-color: #ddedaa;
+    color: #334139;
+    font-family: 'poppins', sans-serif;
+    width: 200px;
+    padding: 10px;
+    margin: 20px 0px 0px 20px;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #d16014;
+}
+
+h1 {
+    font-family: 'poppins', sans-serif;
+    text-transform:uppercase
+}
+
+h2 {
+    font-family: 'poppins', sans-serif;
+}
