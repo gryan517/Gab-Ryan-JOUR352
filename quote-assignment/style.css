@@ -17,11 +17,12 @@ div {
     height: 300px;
     text-align:center;
     font-size:44px;
-    font-family: 'Golos Text', sans-serif; ;
+    font-family: 'Golos Text', sans-serif;
     color: #ddedaa;
     padding: 10px;
     margin: 20px 0px 0px 20px;
     border-radius: 10px;
+    border: 3px solid white;
 }
 
 #highlight {
