@@ -1,3 +1,17 @@
+/*
+MY COLOR PALETTE
+Color 1 - #334139
+Color 2 - #ddedaa
+Color 3 - #773344
+Color 4 - #dcd6f7
+Color 5 - #d16014
+*/
 .container-fluid {
-    background-color: white;
+    background-color:"C:\Users\gryan\Downloads\Vera.JPG";
+    font-size: 80px;
+    text-align: center;
+    
+}
+.row {
+    text-align: center;
 }
