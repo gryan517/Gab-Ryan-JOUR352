@@ -69,10 +69,22 @@ img {
     padding: 5px 16px;
 }
 
+
 #skills { 
     font-size: 30px;
     background-color: #893333;
     color: white;
     text-align: center;
+    padding: 10px 24px;
+}
+
+#education {
+    font-size: 30px;
+    background-color: #893333;
+    color: white;
+    text-align: center;
+    padding: 10px 24px;
+}
+#major {
     padding: 10px 24px;
 }
