@@ -10,6 +10,14 @@ Color 4 - #FFFFFF
     
 
 .container-fluid {
+    
+}
+
+.container {
+    text-align: left;
+}
+
+.buttons {
     font-size: 80px;
     font-family: 'Barlow Semi Condensed', sans-serif;
     text-align: center;
@@ -18,21 +26,19 @@ Color 4 - #FFFFFF
     background-position: center bottom;
     padding: 150px 50px 150px 50px;
 }
-
-.container {
-    text-align: left;
-}
-
-.buttons {
-    text-align: center;
-}
     
 .col {
    font-family: 'Raleway', sans-serif;
 }
 
 #topper {
+    font-size: 80px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     text-align: center;
+    color: white;
+    background-image: url(vera-photo.JPG);
+    background-position: center bottom;
+    padding: 150px 50px 150px 50px;
 }
 
 #work {
@@ -139,7 +145,7 @@ img {
 
 @media (min-width:576px) {
     
-    .container-fluid {
+    #topper {
     font-size: 100px;
     text-align: center;
     color: white;
@@ -150,7 +156,7 @@ img {
     
 @media (min-width:992px) {
     
-        .container-fluid {
+        #topper {
     font-size: 190px;
     text-align: center;
     color: white;
