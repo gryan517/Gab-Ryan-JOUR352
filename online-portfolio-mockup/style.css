@@ -9,24 +9,9 @@ Color 4 - #FFFFFF
 @media {
     
 
-.container-fluid {
-    
+.container-fluid {  
 }
-
-.container {
-    text-align: left;
-}
-
-.buttons {
-    font-size: 80px;
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    text-align: center;
-    color: white;
-    background-image: url(vera-photo.JPG);
-    background-position: center bottom;
-    padding: 150px 50px 150px 50px;
-}
-    
+   
 .col {
    font-family: 'Raleway', sans-serif;
 }
@@ -41,25 +26,41 @@ Color 4 - #FFFFFF
     padding: 150px 50px 150px 50px;
 }
 
+#topper2 {
+text-align:center;
+    }
+    
 #work {
     text-align: center;
     font-family: 'Raleway', sans-serif;
     border-radius: 5px;
-    border: none;
-    padding: 32px 16px 32px 16px;
+    border: 3px solid #893333;;
+    padding: 16px 8px 16px 8px;
+    margin: 20px 25px 15px 25px;
     font-size: 20px;
     color: #BB7878;
 }
+
+#work:hover {
+    color: #893333;
+    font-weight: bold;
+    }
     
 #contact {
     text-align: center; 
     font-family: 'Raleway', sans-serif;
     border-radius: 5px;
-    border: none;
-    padding: 32px 16px 32px 16px;
-    font-size: 20px;
+    border: 3px solid #893333;;
+    padding: 16px 8px 16px 8px;
+    margin: 5px 25px 15px 25px;
+    font-size: 15px;
     color: #BB7878;
 }
+    
+#contact:hover {
+    color: #893333;
+    font-weight: bold; 
+    }
 
 h2{ 
     text-align: center;
@@ -71,6 +72,7 @@ h2{
 img {
     border: 3px solid white;
     border-radius: 50%;
+    width: 0px;
 }
 
 .nav-link {
@@ -137,8 +139,9 @@ img {
 }
     
 #footer {
-    background-color: #893333;
-    font-size: 15px;     
+    background-color: #BB7878;
+    font-size: 15px;   
+    color: white;
 }
 
 }
@@ -146,23 +149,79 @@ img {
 @media (min-width:576px) {
     
     #topper {
-    font-size: 100px;
+    font-size: 80px;
     text-align: center;
     color: white;
     background-image: url(vera-photo.JPG);
-    background-position: center bottom;
+    background-position: center;
     padding: 150px 50px 150px 50px;
+}
+    
+img {
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 150px;
+}
+
+#work {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    border: 3px solid #893333;;
+    padding: 32px 16px 32px 16px;
+    margin: 25px 50px 25px 50px;
+    font-size: 20px;
+    color: #BB7878;
+}
+
+#contact {
+    text-align: center; 
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    border: 3px solid #893333;;
+    padding: 32px 16px 32px 16px;
+    margin: 25px 50px 25px 50px;
+    font-size: 15px;
+    color: #BB7878;
 }
     
 @media (min-width:992px) {
     
         #topper {
-    font-size: 190px;
+    font-size: 150px;
     text-align: center;
     color: white;
     background-image: url(vera-photo.JPG);
-    background-position: center bottom;
+    background-position: center;
     padding: 150px 50px 150px 50px;
+}
+
+img {
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 150px;
+}
+
+#work {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    border: 3px solid #893333;;
+    padding: 32px 16px 32px 16px;
+    margin: 25px 50px 25px 50px;
+    font-size: 20px;
+    color: #BB7878;
+}
+    
+#contact {
+    text-align: center; 
+    font-family: 'Raleway', sans-serif;
+    border-radius: 5px;
+    border: 3px solid #893333;;
+    padding: 32px 16px 32px 16px;
+    margin: 25px 50px 25px 50px;
+    font-size: 15px;
+    color: #BB7878;
 }
     
 }
