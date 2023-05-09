@@ -1,63 +1,146 @@
 @media {
 
-* {
+body {
 background-color: #00100B; 
 }
+
+#topimage {
+padding: 0px 0px 0px 0px; 
+} 
     
-#topper{ 
+#header{ 
 text-align: center; 
 }
 
 h1 {
+font-family: 'Montserrat', sans-serif;
+font-weight: 200px;
 text-align: center;
 padding: 50px 10px 10px 10px;
 color: #EFF1ED;
 }
 
 h2 {
+font-family: 'Montserrat', sans-serif;
 font-size: 25px;  
 text-align: center;
 color: #EFF1ED;
 }
+    
+h3 {
+font-size: 15px;
+font-weight: 5px;
+opacity: 0.5;
+color: #587291;
+margin: 0px 0px 0px 0px;
+    }
+
+h4 {
+text-align: center;
+padding: 10px 10px 10px 10px;
+color: #EFF1ED;       
+}
 
 #paragraph {
 color: #EFF1ED;
-padding: 30px 300px 30px 300px;      
+padding: 30px 50px 30px 50px;     
 }
     
-#photo {
-text-align: center;  
-margin: 2px;
-font-size: 12px; 
+.inlinephoto {
+border: 2px solid #587291;
+padding: 10px 10px 0px 10px;
+margin: 0px 0px 50px 0px;
+font-size: 12px;
 color: #587291;
+}
+ 
+#caption {
+padding: 10px 0px 0px 0px;
+text-align: center;
 }
     
 #infographic {
-width: 1000px;       
+padding: 30px 300px 30px 300px;       
+}
+
+#video {
+width: 100%; 
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-weight: 200px;
 }
 
 #quote {
+font-family: 'Montserrat', sans-serif;
 text-align: center;
-font-size: 50px;
-padding: 40px 200px 40px 200px;
+font-size: 20x;
+padding: 30px 100px 30px 100px;
+margin-top: 20px;
+margin-bottom: 20px;
 color: #EFF1ED;
-margin: 2px;  
+border-top: 3px solid #587291;
+border-bottom: 3px solid #587291;
 }
+    
+#line {
+color: #587291; 
+text-align: center;
+font-size: 90px;
+font-family: 'Francois One', sans-serif;
+font-family: 'Instrument Serif', serif;
+    }
 
 #footer {
 font-size: 12px; 
-color: #587291;
+color: #EFF1ED;
+}
+
+a {
+color: #EFF1ED;
+    }
+
+a:hover {
+    color: #587291;
+    }
+    
+img {
+width: 100%;
 }
 }
 
 @media (min-width:576px) {
+
+#paragraph {
+padding: 30px 125px 30px 125px;
+}
     
+#quote {
+font-size: 30px;
+}
 }
 
 @media (min-width:992px) {
-    
+#paragraph {
+padding: 30px 150px 30px 150px;
+}
+ 
+#quote {
+font-size: 40px;
+padding: 30px 175px 30px 175px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
 }
 
 @media (min-width:1200px) {
-    
+#paragraph {
+padding: 30px 300px 30px 300px;
+}
+
+#quote {
+font-size: 50px;
+padding: 30px 200px 30px 200px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
 }
