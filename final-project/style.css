@@ -4,10 +4,10 @@ body {
 background-color: #00100B; 
 }
 
-#topimage {
-padding: 0px 0px 0px 0px; 
+video {
+width: 100%;
 } 
-    
+      
 #header{ 
 text-align: center; 
 }
@@ -43,13 +43,13 @@ color: #EFF1ED;
 
 #paragraph {
 color: #EFF1ED;
-padding: 30px 50px 30px 50px;     
+padding: 30px 50px 30px 50px; 
 }
     
 .inlinephoto {
 border: 2px solid #587291;
 padding: 10px 10px 0px 10px;
-margin: 0px 0px 50px 0px;
+margin: 50px 0px 50px 0px;
 font-size: 12px;
 color: #587291;
 }
@@ -60,7 +60,7 @@ text-align: center;
 }
     
 #infographic {
-padding: 30px 300px 30px 300px;       
+padding: 50px 300px 50px 300px;       
 }
 
 #video {
@@ -88,6 +88,11 @@ text-align: center;
 font-size: 90px;
 font-family: 'Francois One', sans-serif;
 font-family: 'Instrument Serif', serif;
+    }
+    
+#video {
+margin-top: 100px;
+margin-bottom: 100px;
     }
 
 #footer {
@@ -120,6 +125,7 @@ font-size: 30px;
 }
 
 @media (min-width:992px) {
+       
 #paragraph {
 padding: 30px 150px 30px 150px;
 }
@@ -133,6 +139,7 @@ margin-bottom: 20px;
 }
 
 @media (min-width:1200px) {
+     
 #paragraph {
 padding: 30px 300px 30px 300px;
 }
